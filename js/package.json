@@ -1,0 +1,14 @@
+{
+  "name": "fp-basics-js",
+  "version": "1.0.0",
+  "description": "js examples for fp-basics",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^6.2.0"
+  }
+}
