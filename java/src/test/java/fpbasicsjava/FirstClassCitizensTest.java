@@ -57,12 +57,12 @@ public class FirstClassCitizensTest {
     @Test
     public void lambdaAsFirstClassCitizen() {
         assertTrue(fcc.isEven.test(0));
-        assertTrue(fcc.isEven.test(1));
+        assertFalse(fcc.isEven.test(1));
 
         IntPredicate isOdd = fcc.negate(fcc.isEven);
 
         assertFalse(isOdd.test(0));
-        assertFalse(isOdd.test(1));
+        assertTrue(isOdd.test(1));
     }
 
     @Test

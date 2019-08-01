@@ -1,0 +1,21 @@
+# Pure Functions
+
+Funtional Programming is operating exclusively with pure Functions
+on immutable values.
+
+There are two rules for a pure function:
+
+1. It has no side effects
+
+Examples for side effects are:
+- Every form of IO
+- Mutating state outside the scope of the function itself
+- throwing Exceptions
+
+2. It returns always the same value for the same input.
+
+Those pure functions called have an interesting characteristic called
+referential transparency.
+It states that you can always replace the result of a function called
+with actually calling the function.
+
